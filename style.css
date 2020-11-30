@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+p {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+.slicknav_menu {
+	display: none;
+}
+
+/* HEADER CSS */
+
+.logo-area {
+	margin: 35px 0;
+}
+.logo {
+	width: 100px;
+	height: auto;
+	display: block;
+}
+#main-menu {
+	width: 100%;
+	margin: 30px auto;
+}
+#main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#main-menu ul li {
+    display: inline-block;
+}
+#main-menu ul li:last-child {
+    
+}
+#main-menu ul li a {
+	padding: 8px 20px;
+	color: #3f4244;
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#main-menu ul li:hover a{
+    background: #57e9ca;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#main-menu ul .active{
+    background: #57e9ca;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* HERO AREA CSS */
+#hero-area{
+    background: #4bdecc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 75vh;
+}
+.hero-text{
+
+}
+.hero-text h1 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 60px;
+}
+.btn {
+	background: #ff5e55;
+	color: #ffffff;
+	margin-top: 50px;
+	padding: 13px 30px;
+	border: 0px solid;
+    outline: 0;
+    border-radius: 10px;
+}
+
+/* SERVICES AREA CSS STYLE */
+#srvices-area{
+    padding: 40px 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+#srvices-area a{
+    color: #ffffff;
+}
+
+#srvices-area a i::before{
+    display: inline-block;
+    background: #59ebca;
+    width: 75px;
+    height: 75px;
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#srvices-area a:hover i::before{
+    background: #ff5e55;
+    transform: rotate(360deg);
+}
+#srvices-area h3 {
+	color: #3f4244;
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: 25px;
+}
+#srvices-area p {
+    font-size: 13px;
+    color: #929ba0;
+}
+
+/* browser-area css */
+#browser-area{
+    background: #ff5c55;
+    background-repeat: repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 40px;
+}
+#browser-area h3 {
+	font-size: 40px;
+	font-weight: 400;
+	color: #fff;
+}
+#browser-area p {
+	font-size: 13px;
+	font-weight: 300;
+	color: #fff;
+	width: 50%;
+	margin: 0 auto;
+}
+#browser-area img {
+	margin-top: 100px;
+}
+/* phone-add-area css */
+#phone-add-area {
+    width: 100%;
+	padding: 40px 0;
+}
+#phone-add-area img{
+    float: right;
+    display: block;
+}
+#phone-add-area h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+#phone-add-area p {
+	font-size: 15px;
+	font-weight: 300;
+	color: #929ba0;
+}
+
+#phone-add-area .col-md-6:last-child {
+	padding-left: 40px;
+	text-align: left;
+}
+
+
+/* RESPONSIVE CSS */
+@media only screen and (min-width:200px) and (max-width:768px){
+
+    .slicknav_menu {
+        display: block;
+    }
+}
