@@ -370,6 +370,54 @@ a {
 	font-weight: 400;
 }
 
+/* QUOTA CSS */
+
+#quota-area{
+    background: #ff4c56;
+    padding: 80px 0;
+    color: #ffffff;
+}
+
+#quota-area h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#quota-area p {
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+
+/* NEWSLETTER CSS */
+
+#newsletter-area{
+    padding: 60px 0;
+    width: 100%;
+    background: #233537;
+    color: #ffffff;
+}
+
+#newsletter-area h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-subbuscribe {
+	border: 1px solid #63f5c8;
+	padding: 15px 50px;
+	background: none;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 13px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-subbuscribe:hover {
+	border: 1px solid #ff4c56;
+
+}
+
 
 /* RESPONSIVE CSS */
 
