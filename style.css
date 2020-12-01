@@ -321,6 +321,54 @@ a {
     color: #10cab7;
     text-transform: uppercase;
 }
+/* TEAM AREA CSS STYLE */
+#team-area{
+    padding: 40px 0;
+}
+#team-area .col-md-12 h2{
+    color: #3f4244;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#team-area .col-md-12 p{
+    color: #929ba0;
+    font-size: 13px;
+    font-weight: 400;
+    width: 60%;
+    margin: 10px auto;
+
+}
+.team-member {
+	margin-top: 60px;
+}
+.team-member img {
+	width: 100%;
+	display: block;
+}
+.team-member .details {
+	background: #4ee1cb;
+	padding: 10px;
+}
+.team-member h4 {
+	font-size: 20px;
+	color: #3f4244;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 6px;
+}
+.team-member strong {
+	color: #fff;
+	font-weight: 400;
+	font-size: 13px;
+	margin-bottom: 20px;
+	display: block;
+}
+.team-member p {
+	font-size: 15px;
+	color: #3f4244;
+	font-weight: 400;
+}
 
 
 /* RESPONSIVE CSS */
