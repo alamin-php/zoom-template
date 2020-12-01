@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -133,7 +136,7 @@ a {
     font-size: 32px;
     padding: 20px;
     border-radius: 50%;
-    transition: 0.5s;
+    transition: 0.7s;
     text-align: center;
 }
 
@@ -296,6 +299,27 @@ a {
 #portfolio-area a:hover i::before {
     transform: rotate(360deg);
     background: #ff5e55;
+}
+
+/* STATS AREA CSS */
+#stats-area{
+    background: #233537;
+    padding: 60px 0;
+}
+#stats-area img{
+    margin-bottom: 35px;
+    display: inline-block;
+}
+#stats-area h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#stats-area p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #10cab7;
+    text-transform: uppercase;
 }
 
 
