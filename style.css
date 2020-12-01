@@ -347,7 +347,7 @@ a {
 	display: block;
 }
 .team-member .details {
-	background: #4ee1cb;
+	background: linear-gradient(rgba(78,225,203,0.5),rgba(78,225,203,1.0));
 	padding: 10px;
 }
 .team-member h4 {
