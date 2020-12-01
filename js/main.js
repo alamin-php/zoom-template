@@ -1,4 +1,4 @@
     $(document).ready(function() {
-        $('.slider').bxSlider();
-        $('#menu').slicknav();
+        // $('#menu').slicknav();
+        var mixer = mixitup('.filter-container');
     });
