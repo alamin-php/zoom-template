@@ -83,14 +83,32 @@ a {
     border-radius: 5px;
 }
 
+/* STICKY MENU */
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+	background: #ffffff;
+	z-index: 110;
+	box-shadow: 0px -5px 10px 5px #444;
+}
+.sticky .logo-area{
+    margin: 15px 0;
+}
+
+.sticky #main-menu{
+    margin: 10px 0;
+}
 
 /* HERO AREA CSS */
 
 #hero-area {
-    background: #4bdecc;
+    background: linear-gradient(rgba(75,222,204,0.9),rgba(75,222,204,0.9)),url(css/img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center bottom;
     height: 75vh;
 }
 
@@ -162,7 +180,7 @@ a {
 /* browser-area css */
 
 #browser-area {
-    background: #ff5c55;
+    background: linear-gradient(rgba(255,92,85,0.9),rgba(255,92,85,0.9)),url(css/img/browser-bg.jpg);
     background-repeat: repeat;
     background-position: center top;
     background-size: cover;
@@ -191,6 +209,10 @@ a {
 /* phone-add-area css */
 
 #phone-add-area {
+    background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url(css/img/app-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
     width: 100%;
     padding: 40px 0;
 }
@@ -218,7 +240,10 @@ a {
 
 #portfolio-area {
     text-align: center;
-    background: #51e4cb;
+    background:linear-gradient(rgba(81,228,203,0.9),rgba(81,228,203,0.9)), url(css/img/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 40px 0;
 }
 
@@ -444,7 +469,10 @@ a {
 
 /* PHONE ADD CSS */
     #add-area{
-        background: #57e9ca;
+        background: linear-gradient(rgba(87,233,202,0.9), rgba(87,233,202,0.9)), url(css/img/mordan-designe.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
         padding: 40px 0;
 
     }
@@ -513,7 +541,10 @@ a {
 /* CONTACT CSS */
 #contact-area{
     padding: 40px 0;
-    background: #ff5056;
+    background: linear-gradient(rgba(255,80,86,0.9),rgba(255,80,86,0.9)), url(css/img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .contact-text h3{
     font-size: 40px;
@@ -533,11 +564,14 @@ a {
     margin: 0 auto;
     margin-top: 80px;
 }
-#contact-area form input{
-    border-radius: 0px;
-    border: 1px solid #ffffff;
-    background: none;
-    outline: 0;
+#contact-area form input {
+	border-radius: 0px;
+	border: 1px solid #ffffff;
+	background: none;
+	outline: 0;
+	display: block;
+	width: 100%;
+	padding: 10px;
 }
 #contact-area form input::placeholder{
     color: #ffffff;
