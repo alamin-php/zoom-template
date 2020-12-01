@@ -417,8 +417,64 @@ a {
 	border: 1px solid #ff4c56;
 
 }
+/* ABOUT AREA CSS */
+#about-area{
+    padding: 50px 0;
+}
+#about-area img {
+    float: right;
+    width: 100%;
+    height: auto;
+}
+#about-area .about-text {
+	padding-left: 60px;
+	text-align: left;
+}
+.about-text h4 {
+	font-size: 20px;
+	color: #3f4244;
+	font-weight: 500;
+}
+.about-text p {
+	font-size: 13px;
+	color: #929ba0;
+	font-weight: 400;
+}
 
+/* PHONE ADD CSS */
+    #add-area{
+        background: #57e9ca;
+        padding: 40px 0;
 
+    }
+    #add-area img {
+        float: right;
+        margin-top: 100px;
+        margin-bottom: -100px;
+    }
+    #add-area .add-text{
+        padding-left: 60px;
+        margin-top: 200px;
+    }
+    .add-text h4 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    .add-text span {
+        font-size: 15px;
+        display: block;
+        color: #243638;
+        font-weight: 400;
+    }
+
+    .add-text p {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 300;
+        margin: 20px 0;
+    }
 /* RESPONSIVE CSS */
 
 @media only screen and (min-width:200px) and (max-width:768px) {
