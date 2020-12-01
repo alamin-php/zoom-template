@@ -24,91 +24,104 @@ a {
     text-decoration: none;
     transition: 0.3s;
 }
+
 .slicknav_menu {
-	display: none;
+    display: none;
 }
+
 
 /* HEADER CSS */
 
 .logo-area {
-	margin: 35px 0;
+    margin: 35px 0;
 }
+
 .logo {
-	width: 100px;
-	height: auto;
-	display: block;
+    width: 100px;
+    height: auto;
+    display: block;
 }
+
 #main-menu {
-	width: 100%;
-	margin: 30px auto;
+    width: 100%;
+    margin: 30px auto;
 }
+
 #main-menu ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 #main-menu ul li {
     display: inline-block;
 }
-#main-menu ul li:last-child {
-    
-}
+
+#main-menu ul li:last-child {}
+
 #main-menu ul li a {
-	padding: 8px 20px;
-	color: #3f4244;
-	display: block;
-	text-transform: uppercase;
-	text-decoration: none;
+    padding: 8px 20px;
+    color: #3f4244;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
 }
-#main-menu ul li:hover a{
-    background: #57e9ca;
-    color: #ffffff;
-    border-radius: 5px;
-}
-#main-menu ul .active{
+
+#main-menu ul li:hover a {
     background: #57e9ca;
     color: #ffffff;
     border-radius: 5px;
 }
 
+#main-menu ul .active {
+    background: #57e9ca;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+
 /* HERO AREA CSS */
-#hero-area{
+
+#hero-area {
     background: #4bdecc;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     height: 75vh;
 }
-.hero-text{
 
-}
+.hero-text {}
+
 .hero-text h1 {
-	color: #fff;
-	font-weight: 300;
-	font-size: 60px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 60px;
 }
+
 .btn {
-	background: #ff5e55;
-	color: #ffffff;
-	margin-top: 50px;
-	padding: 13px 30px;
-	border: 0px solid;
+    background: #ff5e55;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 13px 30px;
+    border: 0px solid;
     outline: 0;
     border-radius: 10px;
 }
 
+
 /* SERVICES AREA CSS STYLE */
-#srvices-area{
+
+#srvices-area {
     padding: 40px 0;
     width: 100%;
     background: #ffffff;
 }
 
-#srvices-area a{
+#srvices-area a {
     color: #ffffff;
 }
 
-#srvices-area a i::before{
+#srvices-area a i::before {
     display: inline-block;
     background: #59ebca;
     width: 75px;
@@ -120,72 +133,181 @@ a {
     text-align: center;
 }
 
-#srvices-area a:hover i::before{
+#srvices-area a:hover i::before {
     background: #ff5e55;
     transform: rotate(360deg);
 }
+
 #srvices-area h3 {
-	color: #3f4244;
-	font-weight: 500;
-	font-size: 15px;
-	margin-top: 25px;
+    color: #3f4244;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 25px;
 }
+
 #srvices-area p {
     font-size: 13px;
     color: #929ba0;
 }
 
+
 /* browser-area css */
-#browser-area{
+
+#browser-area {
     background: #ff5c55;
     background-repeat: repeat;
     background-position: center top;
     background-size: cover;
     padding-top: 40px;
 }
+
 #browser-area h3 {
-	font-size: 40px;
-	font-weight: 400;
-	color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
 }
+
 #browser-area p {
-	font-size: 13px;
-	font-weight: 300;
-	color: #fff;
-	width: 50%;
-	margin: 0 auto;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
 }
+
 #browser-area img {
-	margin-top: 100px;
+    margin-top: 100px;
 }
+
+
 /* phone-add-area css */
+
 #phone-add-area {
     width: 100%;
-	padding: 40px 0;
+    padding: 40px 0;
 }
-#phone-add-area img{
+
+#phone-add-area img {
     float: right;
     display: block;
 }
-#phone-add-area h2{
+
+#phone-add-area h2 {
     font-size: 40px;
     font-weight: 400;
 }
+
 #phone-add-area p {
-	font-size: 15px;
-	font-weight: 300;
-	color: #929ba0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #929ba0;
 }
 
 #phone-add-area .col-md-6:last-child {
-	padding-left: 40px;
-	text-align: left;
+    padding-left: 40px;
+    text-align: left;
+}
+
+#portfolio-area {
+    text-align: center;
+    background: #51e4cb;
+    padding: 40px 0;
+}
+
+#portfolio-area .col-md-12 {
+    color: #ffffff;
+}
+
+#portfolio-area .col-md-12 h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#portfolio-area .col-md-12 p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#portfolio-area .nav-filter {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+#portfolio-area .nav-filter ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#portfolio-area .nav-filter ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#portfolio-area .nav-filter ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #3f4244;
+    text-decoration: none;
+}
+
+#portfolio-area .nav-filter ul li a:hover {
+    color: #ffffff;
+}
+
+#portfolio-area .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#portfolio-area .text-area {
+    background: #ffffff;
+    padding: 10px;
+}
+
+#portfolio-area .text-area h4 {
+    color: #3f4244;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#portfolio-area .text-area p {
+    color: #929ba0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#portfolio-area .work img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio-area a {
+    display: block;
+    width: 100%;
+}
+
+#portfolio-area a i::before {
+    background: #fff;
+    color: #4ddfcc;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#portfolio-area a:hover i::before {
+    transform: rotate(360deg);
+    background: #ff5e55;
 }
 
 
 /* RESPONSIVE CSS */
-@media only screen and (min-width:200px) and (max-width:768px){
 
+@media only screen and (min-width:200px) and (max-width:768px) {
     .slicknav_menu {
         display: block;
     }
