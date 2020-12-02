@@ -29,9 +29,9 @@ a {
     transition: 0.3s;
 }
 
-.slicknav_menu {
-    display: none;
-}
+/* .slicknav_menu {
+    display: block;
+} */
 
 
 /* HEADER CSS */
@@ -595,7 +595,17 @@ form button {
 	margin-top: 2rem;
 }
 @media only screen and (min-width:200px) and (max-width:768px) {
-    .slicknav_menu {
-        display: block;
+    /* .sticky {
+        display: none;
     }
+    #main-menu {
+        display: none;
+    }
+    .logo-area {
+        margin: 15px 0;
+    }
+    #browser-area img {
+        margin: 10px auto auto;
+        width: 50%;
+    } */
 }

@@ -1,5 +1,4 @@
     $(document).ready(function() {
-        // $('#menu').slicknav();
         $(".js--services-section").waypoint(function(direction){
             if(direction == "down"){
                 $("nav").addClass("sticky");
@@ -8,4 +7,5 @@
             }
         });
         var mixer = mixitup('.filter-container');
+        $('#menu').slicknav();
     });
