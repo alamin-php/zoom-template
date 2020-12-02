@@ -7,5 +7,5 @@
             }
         });
         var mixer = mixitup('.filter-container');
-        $('#menu').slicknav();
+
     });

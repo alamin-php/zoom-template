@@ -29,9 +29,9 @@ a {
     transition: 0.3s;
 }
 
-/* .slicknav_menu {
+.slicknav_menu {
     display: block;
-} */
+}
 
 
 /* HEADER CSS */
@@ -181,7 +181,7 @@ a {
 
 #browser-area {
     background: linear-gradient(rgba(255,92,85,0.9),rgba(255,92,85,0.9)),url(css/img/browser-bg.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     padding-top: 40px;
@@ -203,6 +203,7 @@ a {
 
 #browser-area img {
     margin-top: 100px;
+    width: 100%;
 }
 
 
@@ -595,17 +596,27 @@ form button {
 	margin-top: 2rem;
 }
 @media only screen and (min-width:200px) and (max-width:768px) {
-    /* .sticky {
-        display: none;
-    }
-    #main-menu {
-        display: none;
+    .sticky {
+        display: block;
     }
     .logo-area {
-        margin: 15px 0;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .logo {
+        display: inline-block;
     }
     #browser-area img {
-        margin: 10px auto auto;
+        margin: 10px auto;
         width: 50%;
-    } */
+    }
+    #main-menu {
+        width: 100%;
+        margin: 5px auto;
+        text-align: center;
+    }
+    #main-menu ul li a{
+        padding: 5px 10px;
+    }
+
 }
